@@ -18,7 +18,7 @@ static int codes;
 MODULE_LICENSE("GPL v2");
 MODULE_AUTHOR("Lucas Zordan Nunes <lucaszordan0204@gmail.com>");
 MODULE_VERSION(WINDOWS_V_VERSION);
-MODULE_DESCRIPTION("Windows + v featura in linux xD");
+MODULE_DESCRIPTION("Windows + v feature in linux xD");
 
 module_param(codes, int, 0644);
 MODULE_PARM_DESC(codes, "log format (0:US keys (default), 1:hex keycodes, 2:dec keycodes)");
